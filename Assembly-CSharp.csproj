@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{d94d282e-fb82-a050-1b10-01aa70b3865f}</ProjectGuid>
+    <ProjectGuid>{b29ef238-0c3a-527e-4e74-fdccb3aae03d}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\MyNetworkManager.cs" />
+     <Compile Include="Assets\Scripts\MyNetworkPlayer.cs" />
      <None Include="Assets\Mirror\Version.txt" />
      <None Include="Assets\Mirror\Readme.txt" />
      <None Include="Assets\Mirror\Notice.txt" />
@@ -288,31 +289,31 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Rocks">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Pdb">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -702,249 +703,249 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Configuration">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Tools.NetworkProfiler.Runtime">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Tools.MetricTypes">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.MetricTypes.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.MetricTypes.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Tools.NetStatsReporting">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsReporting.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsReporting.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Tools.Common">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Common.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Collections">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Tools.NetStats">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStats.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Tools.NetworkSolutionInterface">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="PPv2URPConverters">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Tools.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Profiling.Core">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Tools.NetworkProfiler.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Component">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Implementation">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-        <HintPath>C:\Users\furkan\MultiPlayer Tutorial\Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Tools.NetStats">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStats.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Tools.NetworkSolutionInterface">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Tools.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Tools.NetworkProfiler.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetworkProfiler.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Component">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Tools.NetStatsMonitor.Implementation">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\Users\furkan\Documents\GitHub\FirstMultiplayerProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="kcp2k.csproj">
-      <Project>{0ef0d7c4-031f-3563-6502-1518548bd733}</Project>
+      <Project>{c3d161bf-05c5-030d-3ce7-f5acf5c2a83c}</Project>
       <Name>kcp2k</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Transports.csproj">
-      <Project>{dfda1d8f-b6d4-cdc3-f4c5-c12d9c6faaf7}</Project>
+      <Project>{f412df50-a49e-c40f-2c40-215ccc7a6699}</Project>
       <Name>Mirror.Transports</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{116b704a-288b-98d7-27f7-93f15a55bd9d}</Project>
+      <Project>{af0ba27f-13d9-8000-0b90-df079ea50fe1}</Project>
       <Name>Mirror.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{450200d3-bdec-eb08-a73b-719d513b1ed0}</Project>
+      <Project>{ad0c6cd0-350d-1c4e-5692-c24bd05489aa}</Project>
       <Name>Mirror.CompilerSymbols</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{9b06c8f4-0a65-97d1-c29f-15a08556e057}</Project>
+      <Project>{1636ffb8-6249-38e5-c33d-3bae4f90933f}</Project>
       <Name>Mirror.Authenticators</Name>
     </ProjectReference>
     <ProjectReference Include="Telepathy.csproj">
-      <Project>{021570e0-d612-65e5-5527-4bdd352b2720}</Project>
+      <Project>{45f026df-2ea4-fb0a-5ae6-46bb0799988f}</Project>
       <Name>Telepathy</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{4c32d457-2108-2ab1-0d46-eb172a81ee3d}</Project>
+      <Project>{8a99e557-6de5-79b5-0d14-b5b682123990}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{94176c60-93b7-93f1-b7a1-c50972c243f3}</Project>
+      <Project>{ec6c9593-ff31-64ad-4180-d1a3313210ee}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{0745d8ce-04b5-cfd4-7293-9d5237523414}</Project>
+      <Project>{ab57172f-6ea5-ca1e-9010-e29dc02a0254}</Project>
       <Name>Mirror.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{2485acfa-c197-1600-2935-24c3ab45b725}</Project>
+      <Project>{86e2a7c7-2378-4f2d-09e4-438455021c7f}</Project>
       <Name>SimpleWebTransport</Name>
     </ProjectReference>
   </ItemGroup>
